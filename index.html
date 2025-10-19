@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>lito</title>
+    <link rel="stylesheet" href="./src/index.css" />
+    <script type="module">
+      import { MaterialAlert } from './src/material-alert.js'
+    </script>
+  </head>
+  <body>
+<material-alert type="warning" title="警告" closable>
+  这是一个警告信息
+</material-alert>
+<!-- 使用组件 -->
+<led-marquee
+  text="次は熱海です。The next station is Atami(熱海) JT-20."
+  speed="5"
+  color="#4CAF50"
+  background="#000"
+  size="medium"
+  direction="left"
+  pause-on-hover
+></led-marquee>
+  </body>
+</html>
+<script src="./src/led.js" type="module"></script>

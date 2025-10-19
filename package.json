@@ -1,0 +1,28 @@
+{
+  "name": "@atami/lito",
+  "private": false,
+  "version": "1.0.0",
+  "description": "Material Design Alert Boxes",
+  "main": "material-alert.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "lit": "^3.3.1"
+  },
+  "devDependencies": {
+    "vite": "^7.1.7"
+  },
+  "keywords": [
+    "material",
+    "design",
+    "alert",
+    "web component",
+    "lit"
+  ],
+  "author": "@atamijs",
+  "license": "MIT"
+}
