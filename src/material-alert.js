@@ -1,6 +1,6 @@
 import { LitElement, html, css } from 'lit';
 
-export class MaterialAlert extends LitElement {
+export default class MaterialAlert extends LitElement {
     static styles = css`
         :host {
             display: block;
@@ -220,8 +220,3 @@ export class MaterialAlert extends LitElement {
     }
 }
 
-// Register custom element
-customElements.define('material-alert', MaterialAlert);
-
-// Export for user import
-export  default MaterialAlert;

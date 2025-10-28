@@ -6,9 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>lito</title>
     <link rel="stylesheet" href="./src/index.css" />
-    <script type="module">
-      import { MaterialAlert } from './src/material-alert.js'
-    </script>
   </head>
   <body>
 <material-alert type="warning" title="警告" closable>
@@ -16,8 +13,8 @@
 </material-alert>
 <!-- 使用组件 -->
 <led-marquee
-  text="次は熱海です。The next station is Atami(熱海) JT-20."
-  speed="5"
+  text="この電車は伊東ゆきです。次は熱海です。This is a train for Ito.The next station is Atami(熱海) JT-20."
+  speed="8"
   color="#4CAF50"
   background="#000"
   size="medium"
@@ -26,4 +23,6 @@
 ></led-marquee>
   </body>
 </html>
-<script src="./src/led.js" type="module"></script>
+<script  type="module">
+  import { LedMarquee, MaterialAlert } from './index.js';
+</script>

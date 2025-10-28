@@ -1,9 +1,9 @@
 {
   "name": "@atami/lito",
   "private": false,
-  "version": "1.0.0",
-  "description": "Material Design Alert Boxes",
-  "main": "material-alert.js",
+  "version": "1.0.3",
+  "description": "A useful and interesting componets library for Lit.Just OK for Railway Lovers.",
+  "main": "index.js",
   "type": "module",
   "scripts": {
     "dev": "vite",

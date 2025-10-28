@@ -4,7 +4,7 @@
 // Import Lit from CDN
 import { LitElement, html, css } from 'https://unpkg.com/lit@3.1.0/index.js?module';
 
-class LedMarquee extends LitElement {
+export default class LedMarquee extends LitElement {
     static properties = {
         text: { type: String },
         speed: { type: Number },
@@ -132,5 +132,3 @@ class LedMarquee extends LitElement {
     }
 }
 
-// Register the custom element
-customElements.define('led-marquee', LedMarquee);
