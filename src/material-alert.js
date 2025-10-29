@@ -220,3 +220,4 @@ export default class MaterialAlert extends LitElement {
     }
 }
 
+customElements.define('material-alert', MaterialAlert);

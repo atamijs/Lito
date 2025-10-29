@@ -132,3 +132,4 @@ export default class LedMarquee extends LitElement {
     }
 }
 
+customElements.define('led-marquee', LedMarquee);
