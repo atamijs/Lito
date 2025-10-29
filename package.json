@@ -1,7 +1,7 @@
 {
   "name": "@atami/lito",
   "private": false,
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A useful and interesting componets library for Lit.Just OK for Railway Lovers.",
   "main": "index.js",
   "type": "module",
@@ -21,7 +21,8 @@
     "design",
     "alert",
     "web component",
-    "lit"
+    "lit",
+    "Railway"
   ],
   "author": "@atamijs",
   "license": "MIT"
