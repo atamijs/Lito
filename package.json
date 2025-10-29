@@ -1,13 +1,13 @@
 {
   "name": "@atami/lito",
   "private": false,
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A useful and interesting componets library for Lit.Just OK for Railway Lovers.",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && npm publish --access public",
     "preview": "vite preview"
   },
   "dependencies": {
